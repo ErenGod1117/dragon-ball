@@ -1,0 +1,169 @@
+.example-card {
+  width: 300px;
+  height: 555px;
+  background-color: #212121;
+  border-radius: 1rem;
+  border: #fffdfd 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+  color: white;
+  text-align: center;
+  }
+.example-card:hover{
+  transform: translateY(-1.5rem);
+  border: #0e29a2f0 0.2em solid;
+  border-radius: 2.5rem 0 2.5rem 0;
+  font-size: 20px;
+  height: 555px;
+}
+  
+.example-header-image-1{
+  background-image: url('https://depor.com/resizer/CxZaC40fE4MwWFAlx8uGbQ9lFKI=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/6Y2EDIISGFGVFANEVDCR5LCG34.jpg');
+  background-size: cover;
+  }
+.example-header-image-2{
+  background-image: url('https://www.geekmi.news/__export/1626617054893/sites/debate/img/2021/07/18/vegeta-4.jpg_375108060.jpg');
+  background-size: cover;
+}
+.example-header-image-3{
+  background-image: url('https://depor.com/resizer/iAihbZg2LDbta87Qi8s88fhrdM4=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/CU46M2NESJA5DJZ2GDEYHM4ERQ.jpg');
+  background-size: cover;
+}
+.example-header-image-4{
+  background-image: url('https://depor.com/resizer/HJVq1zRSv1bOgt2SG7rmv-qmHGM=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/T3NXILLJQRBQBLTNALRICUZMWQ.jpg');
+  background-size: cover;
+}
+.example-header-image-5{
+  background-image: url('https://elcomercio.pe/resizer/_IxMVkNyCOt_vo1dvGogjfE7i_k=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/42SOWSZABBB5FDF3HMKIQFEKV4.jpg');
+  background-size: cover;
+}
+.example-header-image-6{
+  background-image: url('https://caracoltv.brightspotcdn.com/dims4/default/4a31abf/2147483647/strip/true/crop/662x441+0+0/resize/662x441!/quality/90/?url=https%3A%2F%2Fcaracol-brightspot.s3-us-west-2.amazonaws.com%2Fassets%2Fshock%2Farticle-images%2Fgohan.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+.example-header-image-1:hover{
+  transform: rotate(-360deg);
+  width: 120px;
+  height: 120px;
+  transition: all 2s;
+}
+
+.example-header-image-2:hover{
+  transform: rotate(-360deg);
+  width: 120px;
+  height: 120px;
+  transition: all 2s;
+}
+.example-header-image-3:hover{
+  transform: rotate(-360deg);
+  width: 120px;
+  height: 120px;
+  transition: all 2s;
+}
+.example-header-image-4:hover{
+  transform: rotate(-360deg);
+  width: 120px;
+  height: 120px;
+  transition: all 2s;
+}
+.example-header-image-5:hover{
+  transform: rotate(-360deg);
+  width: 120px;
+  height: 120px;
+  transition: all 2s;
+}
+.example-header-image-6:hover{
+  transform: rotate(-360deg);
+  width: 120px;
+  height: 120px;
+  transition: all 2s;
+}
+
+.file-1{
+  display: flex;
+  justify-content: space-around;
+}
+.file-2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-card{
+  border-radius: 80px;
+}
+
+.image-card:hover{
+  transform: translateY(-1.5rem);
+    transition: all 0.8s;
+}
+
+mat-card-subtitle{
+  color: white;
+}
+button {
+  text-decoration: none;
+  border: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: black;
+  width: 9em;
+  height: 4em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg,#455504,#f1f6f2,#073bda,#4a6106);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+ }
+ 
+button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+ }
+ 
+ @keyframes ani {
+  0% {
+   background-position: 0%;
+  }
+ 
+  100% {
+   background-position: 400%;
+  }
+ }
+ 
+button:before {
+  content: '';
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#ebedee,#080808,#f1f1ed,#000000);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+ }
+ 
+button:hover::before {
+  filter: blur(20px);
+}
+ 
+button:active {
+  background: linear-gradient(32deg,#0370a3,#dadada,#0489b1,#ffffff);
+}
+button a{
+  text-decoration: none;
+  color: black;
+}
+
+.image-card{
+  height: 250px;
+}
+.separ-2{
+  height: 80px;
+}
